@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Book_System</display-name>
+  <filter>
+    <filter-name>encoding</filter-name>
+    <filter-class>com.ambow.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>encoding</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>OperatorLoginServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.OperatorLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AddAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminListServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AdminListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StockReceiveServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StockReceiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TextBookManagerServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.TextBookManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSupplierServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AddSupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStationServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AddStationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TextBookListServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.TextBookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SupplierListServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.SupplierListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StationListServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StationListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ModifyAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAllServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.DeleteAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyBookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ModifyBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifySupplierServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ModifySupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyStationServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.ModifyStationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StockPaymentListServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StockPaymentListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorModifyServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.OperatorModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorModifyAllSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.OperatorModifyAllSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>receivebookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.receivebookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>rukuServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.rukuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>kuchunServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.kuchunServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>rukuqueryServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.rukuqueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pandianServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.pandianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jiluServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.jiluServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>yikuServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.yikuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>moveServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.moveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>huojiaServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.huojiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serchhuojiaServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.serchhuojiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatehuojiaServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.updatehuojiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletehuojiaServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deletehuojiaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>studentbookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.studentbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentSerchServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StudentSerchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>studentGetBookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.studentGetBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliver_queryStudentSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deliver_queryStudentSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookInfo_detailServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.bookInfo_detailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliver_queryTeacherSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deliver_queryTeacherSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editbookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.editbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editDeletetextbookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.editDeletetextbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliver_queryOtherSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deliver_queryOtherSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliver_queryStationSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deliver_queryStationSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deliver_querySevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.deliver_querySevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teacher_querybookSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.teacher_querybookSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>station_querybookSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.station_querybookSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>other_querybookSevlet</servlet-name>
+    <servlet-class>com.ambow.servlet.other_querybookSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tiaozhengServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.tiaozhengServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetbookServletTeacher</servlet-name>
+    <servlet-class>com.ambow.servlet.GetbookServletTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetbookServletOther</servlet-name>
+    <servlet-class>com.ambow.servlet.GetbookServletOther</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetbookServletStation</servlet-name>
+    <servlet-class>com.ambow.servlet.GetbookServletStation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddEditBookServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.AddEditBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BJiServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.BJiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookFeeServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.BookFeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LevelServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.LevelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MajorServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.MajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>com.ambow.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OperatorModifyAllSevlet</servlet-name>
+    <url-pattern>/OperatorModifyAllSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>receivebookServlet</servlet-name>
+    <url-pattern>/receivebookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>rukuServlet</servlet-name>
+    <url-pattern>/rukuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>kuchunServlet</servlet-name>
+    <url-pattern>/kuchunServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>rukuqueryServlet</servlet-name>
+    <url-pattern>/rukuqueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pandianServlet</servlet-name>
+    <url-pattern>/pandianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jiluServlet</servlet-name>
+    <url-pattern>/jiluServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>yikuServlet</servlet-name>
+    <url-pattern>/yikuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>moveServlet</servlet-name>
+    <url-pattern>/moveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>huojiaServlet</servlet-name>
+    <url-pattern>/huojiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serchhuojiaServlet</servlet-name>
+    <url-pattern>/serchhuojiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatehuojiaServlet</servlet-name>
+    <url-pattern>/updatehuojiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletehuojiaServlet</servlet-name>
+    <url-pattern>/deletehuojiaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentbookServlet</servlet-name>
+    <url-pattern>/studentbookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentSerchServlet</servlet-name>
+    <url-pattern>/StudentSerchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentGetBookServlet</servlet-name>
+    <url-pattern>/studentGetBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliver_queryStudentSevlet</servlet-name>
+    <url-pattern>/deliver_queryStudentSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookInfo_detailServlet</servlet-name>
+    <url-pattern>/bookInfo_detailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliver_queryTeacherSevlet</servlet-name>
+    <url-pattern>/deliver_queryTeacherSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editbookServlet</servlet-name>
+    <url-pattern>/editbookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editDeletetextbookServlet</servlet-name>
+    <url-pattern>/editDeletetextbookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliver_queryOtherSevlet</servlet-name>
+    <url-pattern>/deliver_queryOtherSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliver_queryStationSevlet</servlet-name>
+    <url-pattern>/deliver_queryStationSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deliver_querySevlet</servlet-name>
+    <url-pattern>/deliver_querySevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacher_querybookSevlet</servlet-name>
+    <url-pattern>/teacher_querybookSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>station_querybookSevlet</servlet-name>
+    <url-pattern>/station_querybookSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>other_querybookSevlet</servlet-name>
+    <url-pattern>/other_querybookSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorModifyServlet</servlet-name>
+    <url-pattern>/OperatorModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorLoginServlet</servlet-name>
+    <url-pattern>/OperatorLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <url-pattern>/AddAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminListServlet</servlet-name>
+    <url-pattern>/AdminListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StockReceiveServlet</servlet-name>
+    <url-pattern>/StockReceiveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TextBookManagerServlet</servlet-name>
+    <url-pattern>/TextBookManagerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSupplierServlet</servlet-name>
+    <url-pattern>/AddSupplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStationServlet</servlet-name>
+    <url-pattern>/AddStationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TextBookListServlet</servlet-name>
+    <url-pattern>/TextBookListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SupplierListServlet</servlet-name>
+    <url-pattern>/SupplierListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StationListServlet</servlet-name>
+    <url-pattern>/StationListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminServlet</servlet-name>
+    <url-pattern>/ModifyAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAllServlet</servlet-name>
+    <url-pattern>/DeleteAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyBookServlet</servlet-name>
+    <url-pattern>/ModifyBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifySupplierServlet</servlet-name>
+    <url-pattern>/ModifySupplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyStationServlet</servlet-name>
+    <url-pattern>/ModifyStationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StockPaymentListServlet</servlet-name>
+    <url-pattern>/StockPaymentListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tiaozhengServlet</servlet-name>
+    <url-pattern>/tiaozhengServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetbookServletTeacher</servlet-name>
+    <url-pattern>/GetbookServletTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetbookServletOther</servlet-name>
+    <url-pattern>/GetbookServletOther</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetbookServletStation</servlet-name>
+    <url-pattern>/GetbookServletStation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddEditBookServlet</servlet-name>
+    <url-pattern>/AddEditBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BJiServlet</servlet-name>
+    <url-pattern>/BJiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookFeeServlet</servlet-name>
+    <url-pattern>/BookFeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LevelServlet</servlet-name>
+    <url-pattern>/LevelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MajorServlet</servlet-name>
+    <url-pattern>/MajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>static/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

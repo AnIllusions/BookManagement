@@ -1,0 +1,596 @@
+2018-01-06 17:59:18,933 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 17:59:18,950 - org.hibernate.Version -17   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 17:59:18,950 - org.hibernate.cfg.Environment -17   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 17:59:18,950 - org.hibernate.cfg.Environment -17   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 17:59:18,997 - org.hibernate.cfg.Configuration -64   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 17:59:18,997 - org.hibernate.cfg.Configuration -64   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 17:59:19,138 - org.hibernate.cfg.Configuration -205  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 17:59:19,169 - org.hibernate.dialect.Dialect -236  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 17:59:19,450 - org.hibernate.tool.hbm2ddl.SchemaExport -517  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 17:59:19,575 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -642  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 17:59:19,575 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -642  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 17:59:19,591 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -658  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 17:59:19,591 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -658  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 17:59:19,591 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -658  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 17:59:19,606 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -673  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 17:59:19,606 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -673  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 17:59:19,606 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -673  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 17:59:19,606 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -673  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 17:59:19,669 - com.mchange.v2.log.MLog -736  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 17:59:19,934 - com.mchange.v2.c3p0.C3P0Registry -1001 [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 17:59:20,075 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -1142 [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4c4a16e5 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@9b9f4c58 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1katcr71hsvai3|6edb6594, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d329a6b6 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1katcr71hsvai3|6dd25fea, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1katcr71hsvai3|71104ed4, numHelperThreads -> 3 ]
+2018-01-06 17:59:50,654 - com.mchange.v2.resourcepool.BasicResourcePool -31721 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#2] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@34b57c75 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 17:59:50,654 - com.mchange.v2.resourcepool.BasicResourcePool -31721 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@76fe005b -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 17:59:50,654 - com.mchange.v2.resourcepool.BasicResourcePool -31721 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4081b13b -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 17:59:50,669 - com.mchange.v2.resourcepool.BasicResourcePool -31736 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#2] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@70dfda8f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 17:59:50,670 - com.mchange.v2.resourcepool.BasicResourcePool -31737 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@70dfda8f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 17:59:50,670 - com.mchange.v2.resourcepool.BasicResourcePool -31737 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@70dfda8f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 17:59:50,670 - com.mchange.v2.resourcepool.BasicResourcePool -31737 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@39e48b4c -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 17:59:50,685 - com.mchange.v2.resourcepool.BasicResourcePool -31752 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@70dfda8f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 17:59:50,670 - com.mchange.v2.resourcepool.BasicResourcePool -31737 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@dbd0b7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 17:59:50,701 - com.mchange.v2.resourcepool.BasicResourcePool -31768 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1katcr71hsvai3|71104ed4]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@70dfda8f is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 17:59:50,717 - org.hibernate.tool.hbm2ddl.SchemaExport -31784 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000231: Schema export unsuccessful
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:689)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:84)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:55)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at com.ambow.model.yingshe.test(yingshe.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1418)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:606)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:526)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:755)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:682)
+	... 31 more
+2018-01-06 17:59:50,732 - org.hibernate.tool.hbm2ddl.SchemaExport -31799 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:00:22,157 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:00:22,173 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:00:22,173 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:00:22,173 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:00:22,204 - org.hibernate.cfg.Configuration -47   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:00:22,204 - org.hibernate.cfg.Configuration -47   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:00:22,282 - org.hibernate.cfg.Configuration -125  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:00:22,314 - org.hibernate.dialect.Dialect -157  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:00:22,595 - org.hibernate.tool.hbm2ddl.SchemaExport -438  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:00:22,617 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -460  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:00:22,617 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -460  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:00:22,633 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -476  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:00:22,633 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -476  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:00:22,633 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -476  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:00:22,648 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -491  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:00:22,648 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -491  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:00:22,648 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -491  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:00:22,648 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -491  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:00:22,648 - com.mchange.v2.log.MLog -491  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:00:22,789 - com.mchange.v2.c3p0.C3P0Registry -632  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:00:22,851 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -694  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@562ac434 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@17546cf4 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kaupbb1v36qo7|5ea1068, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@798d6d48 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kaupbb1v36qo7|e9733fa, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kaupbb1v36qo7|65a77a49, numHelperThreads -> 3 ]
+2018-01-06 18:00:53,212 - com.mchange.v2.resourcepool.BasicResourcePool -31055 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#2] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@49255dbb -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 18:00:53,212 - com.mchange.v2.resourcepool.BasicResourcePool -31055 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@342cc581 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 18:00:53,212 - com.mchange.v2.resourcepool.BasicResourcePool -31055 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@675ab2e9 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3558)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3490)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:919)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3996)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2142)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:781)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:352)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:284)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:146)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:195)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:184)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:200)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1086)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1073)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:648)
+2018-01-06 18:00:53,225 - com.mchange.v2.resourcepool.BasicResourcePool -31068 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#2] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@646af93e is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 18:00:53,227 - com.mchange.v2.resourcepool.BasicResourcePool -31070 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#1] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@646af93e is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 18:00:53,227 - com.mchange.v2.resourcepool.BasicResourcePool -31070 [C3P0PooledConnectionPoolManager[identityToken->1b60y8v9s1kaupbb1v36qo7|65a77a49]-HelperThread-#0] WARN  com.mchange.v2.resourcepool.BasicResourcePool  - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@646af93e is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+2018-01-06 18:00:53,243 - org.hibernate.tool.hbm2ddl.SchemaExport -31086 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000231: Schema export unsuccessful
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:689)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:84)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:55)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at com.ambow.model.yingshe.test(yingshe.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1418)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:606)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:526)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:755)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:682)
+	... 31 more
+2018-01-06 18:00:53,243 - org.hibernate.tool.hbm2ddl.SchemaExport -31086 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:02:07,049 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:02:07,065 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:02:07,065 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:02:07,065 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:02:07,111 - org.hibernate.cfg.Configuration -62   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:02:07,111 - org.hibernate.cfg.Configuration -62   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:02:07,236 - org.hibernate.cfg.Configuration -187  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:02:07,293 - org.hibernate.dialect.Dialect -244  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:02:07,653 - org.hibernate.tool.hbm2ddl.SchemaExport -604  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:02:07,700 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -651  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:02:07,700 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -651  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:02:07,731 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -682  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:02:07,731 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -682  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:02:07,731 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -682  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:02:07,731 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -682  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:02:07,747 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -698  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:02:07,747 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -698  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:02:07,747 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -698  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:02:07,762 - com.mchange.v2.log.MLog -713  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:02:07,934 - com.mchange.v2.c3p0.C3P0Registry -885  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:02:08,028 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -979  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@3bedb8f8 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@b1ba7272 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kawyfl4rnqnu|53dd116, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4cc9ab23 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kawyfl4rnqnu|67d35dc5, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kawyfl4rnqnu|481e2e4e, numHelperThreads -> 3 ]
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BJi drop foreign key FK_4ltvwo40wd88fnhjs3yxyirap
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bji' doesn't exist
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BJi drop foreign key FK_hvirsxlla8tg7x0hc94ol2iqf
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bji' doesn't exist
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BJi drop foreign key FK_cbi9faefx668jmlqrtghpscqw
+2018-01-06 18:02:08,360 - org.hibernate.tool.hbm2ddl.SchemaExport -1311 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bji' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BookFee drop foreign key FK_2o7b3eiqcpgqiqh0jjhs395h3
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bookfee' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BookFee drop foreign key FK_tmatxkh60db206ymp8893ehp6
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bookfee' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table BookFee drop foreign key FK_xqqs2pb135804mbtn9fr5db9
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.bookfee' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Other drop foreign key FK_3kn90xfqv95lg24c9k5nhkyrl
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_other' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Other drop foreign key FK_2mekyxaddfkh92ukc37b4wsch
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_other' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Station drop foreign key FK_qrc624j8wlhcaeifss2lkm60e
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_station' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Station drop foreign key FK_btmnyodchyem3de8imc6tmdlu
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_station' doesn't exist
+2018-01-06 18:02:08,376 - org.hibernate.tool.hbm2ddl.SchemaExport -1327 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Station drop foreign key FK_o6u41572iovyw4uocxhybb9qn
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_station' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Student drop foreign key FK_qn63hwwulsnmrsx340myg3kom
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_student' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Student drop foreign key FK_g79muw1et3fh47q6f5assws20
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_student' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Student drop foreign key FK_n5dpypo53f42920siy06qi8gv
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_student' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Teacher drop foreign key FK_2h34qjqcrfoh4xck4t1174qxd
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_teacher' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Deliver_To_Teacher drop foreign key FK_ikyln379pb0kjai68b5jn5at8
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.deliver_to_teacher' doesn't exist
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_book drop foreign key FK_1jn9rk1opvmau38r27oj8acwk
+2018-01-06 18:02:08,391 - org.hibernate.tool.hbm2ddl.SchemaExport -1342 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_book' doesn't exist
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_book drop foreign key FK_jtwy9vbuvowwh6gw3ywrtpn6j
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_book' doesn't exist
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_book drop foreign key FK_jw5q15nafaxiplq6duq99jexj
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_book' doesn't exist
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_book drop foreign key FK_1xkwrix5ewai4lqfcrc77v0cm
+2018-01-06 18:02:08,407 - org.hibernate.tool.hbm2ddl.SchemaExport -1358 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_book' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_book drop foreign key FK_94u75il5rs8wl5qw5f5ifvxnd
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_book' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_bookinf drop foreign key FK_jof80nmy0quw3twpd01h5m8xq
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_bookinf' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Package_bookinf drop foreign key FK_nrpu2d52ag0l2ii89r9efte6u
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.package_bookinf' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table PayMent drop foreign key FK_ocl7me9mutw5n77hiv2wm8jm3
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.payment' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Stock drop foreign key FK_fax1tlh00vom5mvsj36ekkyvj
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stock' doesn't exist
+2018-01-06 18:02:08,423 - org.hibernate.tool.hbm2ddl.SchemaExport -1374 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Stock drop foreign key FK_2g2un6rl1buah0jdgc2paupp
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stock' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockCheck drop foreign key FK_ewys95mialh32bx6kds7ov2gy
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockcheck' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockCheck drop foreign key FK_elv950s7qdw3rmia37y92saa4
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockcheck' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockCheck drop foreign key FK_dm8rssxrwbdpvht1nktkivy7q
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockcheck' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockMove drop foreign key FK_ar7gdalqfprw37uaqywirxqli
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockmove' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockMove drop foreign key FK_cw4upw6c8wmeilvy090x1bnfm
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockmove' doesn't exist
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockMove drop foreign key FK_nx0l882i066vldgfj5930ew7k
+2018-01-06 18:02:08,438 - org.hibernate.tool.hbm2ddl.SchemaExport -1389 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockmove' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockMove drop foreign key FK_ppwti17whykix68xd4jw71ksm
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockmove' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockReceive drop foreign key FK_9o9boxhcqt7ay2ik5nhcdkkuq
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockreceive' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockReceive drop foreign key FK_8d5gar5enww2jo8t9efanrkk5
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockreceive' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table StockReceive drop foreign key FK_fh7y11kgai2im12ca2529sde7
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stockreceive' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Stock_Payment drop foreign key FK_hnow4dyp5xuqc6oupu9hwwmi
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stock_payment' doesn't exist
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Stock_Payment drop foreign key FK_p70ebgx6blq90bx43of7iysc1
+2018-01-06 18:02:08,454 - org.hibernate.tool.hbm2ddl.SchemaExport -1405 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.stock_payment' doesn't exist
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table Student drop foreign key FK_euufugm6yaqukja12l0lbd0l7
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.student' doesn't exist
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table TextBook drop foreign key FK_9dre0w7fm5ukqyut0n80coxv3
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.textbook' doesn't exist
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000389: Unsuccessful: alter table TextBook drop foreign key FK_mduo21y6fielddwo6om0be99o
+2018-01-06 18:02:08,470 - org.hibernate.tool.hbm2ddl.SchemaExport -1421 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport  - Table 'test.textbook' doesn't exist
+2018-01-06 18:02:17,663 - org.hibernate.tool.hbm2ddl.SchemaExport -10614 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:02:33,200 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:02:33,216 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:02:33,216 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:02:33,216 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:02:33,263 - org.hibernate.cfg.Configuration -63   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:02:33,263 - org.hibernate.cfg.Configuration -63   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:02:33,372 - org.hibernate.cfg.Configuration -172  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:02:33,421 - org.hibernate.dialect.Dialect -221  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:02:33,780 - org.hibernate.tool.hbm2ddl.SchemaExport -580  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:02:33,843 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -643  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:02:33,843 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -643  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:02:33,874 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -674  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:02:33,905 - com.mchange.v2.log.MLog -705  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:02:34,077 - com.mchange.v2.c3p0.C3P0Registry -877  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:02:34,155 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -955  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@6d42c161 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e4a73c99 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kaxils1y8q673|49db1ee0, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4c43a46d [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kaxils1y8q673|68d56991, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kaxils1y8q673|564d82c2, numHelperThreads -> 3 ]
+2018-01-06 18:02:50,373 - org.hibernate.tool.hbm2ddl.SchemaExport -17173 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:20:10,058 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:20:10,073 - org.hibernate.Version -15   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:20:10,073 - org.hibernate.cfg.Environment -15   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:20:10,073 - org.hibernate.cfg.Environment -15   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:20:10,105 - org.hibernate.cfg.Configuration -47   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:20:10,105 - org.hibernate.cfg.Configuration -47   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:20:10,198 - org.hibernate.cfg.Configuration -140  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:20:10,230 - org.hibernate.dialect.Dialect -172  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:20:10,511 - org.hibernate.tool.hbm2ddl.SchemaExport -453  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:20:10,547 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -489  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:20:10,547 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -489  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:20:10,563 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -505  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:20:10,579 - com.mchange.v2.log.MLog -521  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:20:10,719 - com.mchange.v2.c3p0.C3P0Registry -661  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:20:10,782 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -724  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@b402098d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a3a51d53 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kbk5xtk295p5|50c82a01, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@fb92066f [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbk5xtk295p5|1305e45c, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbk5xtk295p5|7ac3bad1, numHelperThreads -> 3 ]
+2018-01-06 18:20:28,444 - org.hibernate.tool.hbm2ddl.SchemaExport -18386 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:21:22,574 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:21:22,590 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:21:22,590 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:21:22,590 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:21:22,637 - org.hibernate.cfg.Configuration -63   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:21:22,637 - org.hibernate.cfg.Configuration -63   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:21:22,746 - org.hibernate.cfg.Configuration -172  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:21:22,762 - org.hibernate.dialect.Dialect -188  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:21:23,090 - org.hibernate.tool.hbm2ddl.SchemaExport -516  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:21:23,123 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -549  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:21:23,123 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -549  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:21:23,139 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -565  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:21:23,139 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -565  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:21:23,139 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -565  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:21:23,155 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -581  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:21:23,155 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -581  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:21:23,155 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -581  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:21:23,155 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -581  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:21:23,170 - com.mchange.v2.log.MLog -596  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:21:23,311 - com.mchange.v2.c3p0.C3P0Registry -737  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:21:23,374 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -800  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@ff9a22ad [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1a5185eb [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kblpxt1n91ugw|1d69fe0a, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7ea28734 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kblpxt1n91ugw|65b165c3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kblpxt1n91ugw|357227df, numHelperThreads -> 3 ]
+2018-01-06 18:21:41,062 - org.hibernate.tool.hbm2ddl.SchemaExport -18488 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:24:33,179 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:24:33,195 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:24:33,195 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:24:33,195 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:24:33,241 - org.hibernate.cfg.Configuration -62   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:24:33,246 - org.hibernate.cfg.Configuration -67   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:24:33,373 - org.hibernate.cfg.Configuration -194  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:24:33,420 - org.hibernate.dialect.Dialect -241  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:25:16,777 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:25:16,793 - org.hibernate.Version -16   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:25:16,793 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:25:16,793 - org.hibernate.cfg.Environment -16   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:25:16,839 - org.hibernate.cfg.Configuration -62   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:25:16,839 - org.hibernate.cfg.Configuration -62   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:25:16,964 - org.hibernate.cfg.Configuration -187  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:25:17,003 - org.hibernate.dialect.Dialect -226  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:25:17,378 - org.hibernate.tool.hbm2ddl.SchemaExport -601  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:25:17,425 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -648  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:25:17,425 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -648  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:25:17,440 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -663  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:25:17,440 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -663  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:25:17,456 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -679  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:25:17,456 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -679  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:25:17,456 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -679  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:25:17,456 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -679  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:25:17,456 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -679  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:25:17,472 - com.mchange.v2.log.MLog -695  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:25:17,643 - com.mchange.v2.c3p0.C3P0Registry -866  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:25:17,722 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -945  [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@41bbef8a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@f4f82f89 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kbqqqmxli8br|5ce3ccd3, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d66ac9d2 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbqqqmxli8br|5e90dbfc, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbqqqmxli8br|9190142, numHelperThreads -> 3 ]
+2018-01-06 18:25:34,903 - org.hibernate.tool.hbm2ddl.SchemaExport -18126 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:25:53,042 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:25:53,055 - org.hibernate.Version -13   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:25:53,055 - org.hibernate.cfg.Environment -13   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:25:53,055 - org.hibernate.cfg.Environment -13   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:25:53,101 - org.hibernate.cfg.Configuration -59   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:25:53,101 - org.hibernate.cfg.Configuration -59   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:25:53,258 - org.hibernate.cfg.Configuration -216  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:25:53,320 - org.hibernate.dialect.Dialect -278  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:25:53,742 - org.hibernate.tool.hbm2ddl.SchemaExport -700  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:25:53,789 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -747  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:25:53,789 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -747  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:25:53,805 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -763  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:25:53,805 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -763  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:25:53,805 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -763  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:25:53,820 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -778  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:25:53,820 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -778  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:25:53,820 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -778  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:25:53,820 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -778  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:25:53,836 - com.mchange.v2.log.MLog -794  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:25:54,039 - com.mchange.v2.c3p0.C3P0Registry -997  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:25:54,133 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -1091 [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@47456def [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d1dade67 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kbrit6111stn|6f7579cf, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@cb441b4e [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbrit6111stn|11846d13, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbrit6111stn|20fb055a, numHelperThreads -> 3 ]
+2018-01-06 18:26:15,928 - org.hibernate.tool.hbm2ddl.SchemaExport -22886 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete
+2018-01-06 18:26:35,832 - org.hibernate.annotations.common.Version -0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-01-06 18:26:35,847 - org.hibernate.Version -15   [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.21.Final}
+2018-01-06 18:26:35,863 - org.hibernate.cfg.Environment -31   [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+2018-01-06 18:26:35,863 - org.hibernate.cfg.Environment -31   [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+2018-01-06 18:26:35,909 - org.hibernate.cfg.Configuration -77   [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-01-06 18:26:35,909 - org.hibernate.cfg.Configuration -77   [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-01-06 18:26:36,066 - org.hibernate.cfg.Configuration -234  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+2018-01-06 18:26:36,113 - org.hibernate.dialect.Dialect -281  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-06 18:26:36,472 - org.hibernate.tool.hbm2ddl.SchemaExport -640  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000227: Running hbm2ddl schema export
+2018-01-06 18:26:36,535 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -703  [main] WARN  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2018-01-06 18:26:36,535 - org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator -703  [main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000046: Connection properties: {user=root, password=****}
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] INFO  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH000006: Autocommit mode: false
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.timeout' and c3p0-style property 'hibernate.c3p0.maxIdleTime' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.timeout' will be used and c3p0-style property 'hibernate.c3p0.maxIdleTime' will be ignored!
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:26:36,566 - org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider -734  [main] WARN  org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider  - HHH010001: Both hibernate-style property 'hibernate.c3p0.idle_test_period' and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' have been set in hibernate.properties. Hibernate-style property 'hibernate.c3p0.idle_test_period' will be used and c3p0-style property 'hibernate.c3p0.idleConnectionTestPeriod' will be ignored!
+2018-01-06 18:26:36,597 - com.mchange.v2.log.MLog -765  [main] INFO  com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2018-01-06 18:26:36,800 - com.mchange.v2.c3p0.C3P0Registry -968  [main] INFO  com.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2018-01-06 18:26:36,894 - com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource -1062 [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@258402ac [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@15271672 [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1b60y8v9s1kbsfsz18ts232|50c82a01, idleConnectionTestPeriod -> 120, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 120, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6d13ff8e [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbsfsz18ts232|1305e45c, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8, properties -> {user=******, password=******} ], preferredTestQuery -> null, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1b60y8v9s1kbsfsz18ts232|7ac3bad1, numHelperThreads -> 3 ]
+2018-01-06 18:26:54,556 - org.hibernate.tool.hbm2ddl.SchemaExport -18724 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - HHH000230: Schema export complete

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--C3P0配置 -->
+        <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.timeout">120</property>
+    		 <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.c3p0.max_statements">100</property>
+        <property name="hibernate.c3p0.idle_test_period">120</property>
+        <property name="hibernate.c3p0.acquire_increment">1</property>
+        <property name="c3p0.testConnectionOnCheckout">true</property>
+        <property name="c3p0.idleConnectionTestPeriod">18000</property>
+        <property name="c3p0.maxIdleTime">25000</property>
+        <property name="c3p0.idle_test_period">120</property>
+        <property name="c3p0.testConnectionOnCheckout">true</property>
+        <property name="dialect">
+            org.hibernate.dialect.MySQLDialect
+    	</property>
+        <property name="connection.url">
+            jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8
+        </property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="connection.driver_class">
+            com.mysql.jdbc.Driver
+    	</property>
+    	<!-- 
+        <property name="myeclipse.connection.profile">testDb</property>
+    	 -->
+        <property name="show_sql">true</property>
+		
+		<mapping class="com.ambow.model.App"/>
+		<mapping class="com.ambow.model.BJi"/>
+		<mapping class="com.ambow.model.BookFee"/>
+		<mapping class="com.ambow.model.Category"/>
+		<mapping class="com.ambow.model.Cell"/>
+		<mapping class="com.ambow.model.BJi"/>
+		<mapping class="com.ambow.model.Deliver_To_Other"/>
+		<mapping class="com.ambow.model.Deliver_To_Station"/>
+		<mapping class="com.ambow.model.Deliver_To_Student"/>
+		<mapping class="com.ambow.model.Deliver_To_Teacher"/>
+		<mapping class="com.ambow.model.Level"/>
+		<mapping class="com.ambow.model.Major"/>
+		<mapping class="com.ambow.model.Operator"/>
+		<mapping class="com.ambow.model.Package_book"/>
+		<mapping class="com.ambow.model.Package_bookinf"/>
+		<mapping class="com.ambow.model.PayMent"/>
+		<mapping class="com.ambow.model.Station"/>
+		<mapping class="com.ambow.model.Stock"/> 
+		<mapping class="com.ambow.model.StockMove"/>
+		<mapping class="com.ambow.model.StockCheck"/>
+		<mapping class="com.ambow.model.StockReceive"/>
+		<mapping class="com.ambow.model.Student"/>
+		<mapping class="com.ambow.model.Supplier"/>
+		<mapping class="com.ambow.model.TBookFee"/>
+		<mapping class="com.ambow.model.TextBook"/>
+		<mapping class="com.ambow.model.Stock_Payment"/>
+		
+    </session-factory>
+
+</hibernate-configuration>
